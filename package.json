@@ -1,0 +1,25 @@
+{
+  "name": "look-out-the-window",
+  "version": "1.0.0",
+  "description": "A pure HTML/CSS/JS project that lets you watch real-life window views from different cities and times of day. Just pick a location and enjoy the view.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frogush/look-Out-the-Window.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frogush/look-Out-the-Window/issues"
+  },
+  "homepage": "https://github.com/Frogush/look-Out-the-Window#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.21.1"
+  }
+}
