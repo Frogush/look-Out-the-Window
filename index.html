@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>>Посмотри в окно</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>>Посмотри в окно</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/preloader.css" />
+  <link rel="stylesheet" href="./styles/error.css" />
 </head>
-<body>
+<body class="page">
+  <main class="content">
+    <h1 class="" style="display: none;"></h1>
+    <section class="result">
+      <div class="result__video-container">
+        <video class="result__video" src="" poster=""></video>
+      </div>
+      <form class="result__search-form">
+        <fieldset class="search-form__fieldset">
+          <h2 class="search-form__fieldset-title">Город</h2>
+          <label class="search-form__label">
+            <span class="search-form__label-text"></span>
+            <input class="search-form__textfield" type="text" placeholder="Санкт Петербург, например" name="city">
+          </label>
+        </fieldset>
+        <fieldset class="search-form__fieldset">
+          <h2 class="search-form__fieldset-title">Время суток</h2>
+          <div class="search-form__checkbox-list">
+            <label class="search-form__label">
+              <input class="search-form__checkbox" type="checkbox" value="morning" name="time">
+              <span class="search-form__checkbox-pseudo"></span>
+              <span class="search-form__checkbox-text">Утро</span>
+            </label>
+            <label class="search-form__label">
+              <input class="search-form__checkbox" type="checkbox" value="afternoon" name="time">
+              <span class="search-form__checkbox-pseudo"></span>
+              <span class="search-form__checkbox-text">День</span>
+            </label>
+            <label class="search-form__label">
+              <input class="search-form__checkbox" type="checkbox" value="night" name="time">
+              <span class="search-form__checkbox-pseudo"></span>
+              <span class="search-form__checkbox-text">Ночь</span>
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="button search-form__submit-button">Найти</button>
+      </form>
+    </section>
+    <section class="content__details">
+      <h1 class="content__details-title"><span class="content__details-title--accent">По-</span><br>смотри<br>в окно</h1>
+      <ul class="content__list">
+        <!-- Вывод карточек -->
+
+      </ul>
+    </section>
+  </main>
+
+  <!-- Шаблоны -->
+
+  <template class="preloader-template">
+    <div class="preloader">
+      <div class="preloader-chasing-squares">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
+  </template>
+  
+  <template class="cards-list-item-template">
+    <li class="content__list-item">
+      <a href="#0" class="content__card-link">
+        <article class="content__video-card">
+          <div class="content__video-card-description-container">
+            <h2 class="content__video-card-title"></h2>
+            <p class="content__video-card-description"></p>
+          </div>
+          <img src="" alt="" class="content__video-card-thumbnail" />
+        </article>
+      </a>
+    </li>
+  </template>
     
+  <template class="more-button-template">
+    <li><button class="button more-button">Показать еще</button></li>
+  </template>
+
+  <template class="error-template">
+    <div class="error">
+      <h2 class="error__title"></h2>
+    </div>
+  </template>
+  <script src="./scripts/index.js"></script>
 </body>
+
 </html>
