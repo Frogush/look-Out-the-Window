@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>>Посмотри в окно</title>
+  <title>Посмотри в окно</title>
   <link rel="stylesheet" href="./fonts/fonts.css" />
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/style.css" />
@@ -12,16 +12,16 @@
 </head>
 <body class="page">
   <main class="content">
-    <h1 class="" style="display: none;"></h1>
+    <h1 class="mobile-content__details-title"><span class="content__details-title--accent">По-</span><br>смотри<br>в окно</h1>
     <section class="result">
       <div class="result__video-container">
-        <video class="result__video" src="" poster=""></video>
+        <video class="result__video" src="" poster="" controls></video>
       </div>
       <form class="result__search-form">
         <fieldset class="search-form__fieldset">
           <h2 class="search-form__fieldset-title">Город</h2>
           <label class="search-form__label">
-            <span class="search-form__label-text"></span>
+            <span class="search-form__label-text visually-hidden">Город</span>
             <input class="search-form__textfield" type="text" placeholder="Санкт Петербург, например" name="city">
           </label>
         </fieldset>
@@ -29,17 +29,17 @@
           <h2 class="search-form__fieldset-title">Время суток</h2>
           <div class="search-form__checkbox-list">
             <label class="search-form__label">
-              <input class="search-form__checkbox" type="checkbox" value="morning" name="time">
+              <input class="search-form__checkbox visually-hidden" type="checkbox" value="morning" name="time">
               <span class="search-form__checkbox-pseudo"></span>
               <span class="search-form__checkbox-text">Утро</span>
             </label>
             <label class="search-form__label">
-              <input class="search-form__checkbox" type="checkbox" value="afternoon" name="time">
+              <input class="search-form__checkbox visually-hidden" type="checkbox" value="afternoon" name="time">
               <span class="search-form__checkbox-pseudo"></span>
               <span class="search-form__checkbox-text">День</span>
             </label>
             <label class="search-form__label">
-              <input class="search-form__checkbox" type="checkbox" value="night" name="time">
+              <input class="search-form__checkbox visually-hidden" type="checkbox" value="night" name="time">
               <span class="search-form__checkbox-pseudo"></span>
               <span class="search-form__checkbox-text">Ночь</span>
             </label>
