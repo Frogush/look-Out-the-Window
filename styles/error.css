@@ -1,0 +1,23 @@
+.error {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 100%;
+  background-color: #545050;
+  inset: 0;
+}
+
+.error__title {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .error__title {
+    font-size: 20px;
+  }
+}
