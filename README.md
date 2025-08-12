@@ -24,7 +24,10 @@ The project has been checked using the **Pixel Perfect** utility and has a high 
 * **HTML5** — semantic and valid markup
 * **CSS3** (Grid, Flexbox, media queries) — responsive design
 * **JavaScript (ES6+)** — dynamic loading, filtering, and video control
-* **Stylelint** — CSS quality and standards checking
+
+## 🧩 Additional Stack
+
+* **Stylelint** — CSS quality check
 * **Prettier** — automatic code formatting
 
 Additionally: **VS Code** with ready-made configuration for Stylelint and Prettier (`.vscode` folder). If you use a different editor, this folder can be deleted.
@@ -158,9 +161,11 @@ npx prettier . --write
 * **HTML5** — семантическая и валидная разметка
 * **CSS3** (Grid, Flexbox, медиазапросы) — адаптивный дизайн
 * **JavaScript (ES6+)** — динамическая загрузка, фильтрация и управление видео
-* **Stylelint** — проверка качества и стандартов CSS
-* **Prettier** — автоматическое форматирование кода
 
+## 🧩 Дополнительный стек
+
+* **Stylelint** — проверка качества CSS
+* **Prettier** — автоматическое форматирование кода
 
 Дополнительно: **VS Code** с готовой конфигурацией для Stylelint и Prettier (папка `.vscode`). Если вы используете другой редактор, то эту папку можно удалить.
 
